@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+canvas {
+    background: white;
+    width: 90vw;
+    height: 50vh;
+    max-width: 800px;
+    max-height: 400px;
+}
+#scoreBoard {
+    margin: 10px;
+    font-size: 24px;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
